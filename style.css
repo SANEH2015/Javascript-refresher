@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+#countdown {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#game {
+    display: none;
+}
+#guess-input {
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #a12e84;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #a0458c;
+}
+p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
